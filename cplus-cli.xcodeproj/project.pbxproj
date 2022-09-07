@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F420B5B628C52B1C00D4A66D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F420B5B528C52B1C00D4A66D /* main.cpp */; };
+		F420B5BF28C82F3700D4A66D /* my_logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F420B5BD28C82F3700D4A66D /* my_logger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F420B5B228C52B1C00D4A66D /* cplus-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cplus-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F420B5B528C52B1C00D4A66D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F420B5BD28C82F3700D4A66D /* my_logger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = my_logger.cpp; sourceTree = "<group>"; };
+		F420B5BE28C82F3700D4A66D /* my_logger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = my_logger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F420B5B528C52B1C00D4A66D /* main.cpp */,
+				F420B5BD28C82F3700D4A66D /* my_logger.cpp */,
+				F420B5BE28C82F3700D4A66D /* my_logger.hpp */,
 			);
 			path = "cplus-cli";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F420B5B628C52B1C00D4A66D /* main.cpp in Sources */,
+				F420B5BF28C82F3700D4A66D /* my_logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
